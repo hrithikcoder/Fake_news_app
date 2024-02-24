@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NewsSplashScreen.User.profileactivity"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:background="@drawable/grediant_profile"
+            >
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <ImageView
+                    android:layout_width="130dp"
+                    android:layout_height="140dp"
+                    android:layout_marginLeft="-50dp"
+
+                    android:layout_marginTop="-30dp"
+                    android:src="@drawable/circle" />
+                <ImageView
+                    android:layout_width="70dp"
+                    android:layout_height="80dp"
+                    android:layout_marginLeft="20dp"
+
+
+
+                    android:layout_marginTop="20dp"
+                    android:src="@drawable/circle" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_gravity="center"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="-40dp"
+                >
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="130dp"
+
+                    android:src="@drawable/dryclean"
+
+                    android:layout_gravity="center"
+                    />
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Hrithik Das"
+                    android:textColor="@color/white"
+                    android:textSize="20dp"
+                    android:layout_gravity="center"/>
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="130dp"
+                android:layout_height="140dp"
+                android:layout_marginLeft="50dp"
+
+
+                android:layout_marginTop="-60dp"
+                android:src="@drawable/circle" />
+
+
+
+
+
+
+        </LinearLayout>
+
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="180dp"
+            android:layout_marginLeft="-100dp"
+            android:layout_marginTop="60dp"
+            android:src="@drawable/record"
+            />
+
+    </LinearLayout>
+    <androidx.cardview.widget.CardView
+        android:layout_width="350dp"
+        android:layout_gravity="center"
+        android:layout_height="400dp"
+        android:orientation="vertical"
+        android:layout_marginTop="-60dp"
+        app:cardCornerRadius="10dp"
+        app:cardElevation="20dp"
+
+
+        >
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+
+            >
+            <ImageView
+                android:padding="10dp"
+                android:background="@drawable/cardradiusback"
+                android:layout_width="70dp"
+                android:layout_height="80dp"
+                android:src="@drawable/settings"
+                android:layout_marginLeft="40dp"
+                />
+
+            <ImageView
+                android:padding="10dp"
+                android:background="@drawable/cardradiusback"
+                android:layout_width="70dp"
+                android:layout_height="80dp"
+                android:src="@drawable/bell"
+                android:layout_marginLeft="130dp"/>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_marginTop="15dp"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:background="@drawable/buttontheme"
+        android:layout_gravity="center"
+        android:text="Edit Profile"
+        android:textColor="@color/white"
+
+        />
+
+
+</LinearLayout>

@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".User.SignUp"
+    android:orientation="vertical"
+    android:background="@color/blue">
+
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <LinearLayout
+
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="40dp"
+
+            >
+
+            <TextView
+                android:layout_marginTop="20dp"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:text="CREATE "
+                android:textColor="@color/white"
+                android:textSize="60sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:text="ACCOUNT"
+                android:textColor="@color/white"
+                android:textSize="50sp" />
+
+
+        </LinearLayout>
+        <LinearLayout
+
+            android:layout_width="200dp"
+            android:layout_height="wrap_content">
+            <ImageView
+
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/bubbles"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="-50dp"
+        android:orientation="vertical"
+        android:padding="40dp">
+
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/cardview"
+            android:elevation="20dp"
+            android:orientation="vertical"
+            android:padding="20dp"
+            app:cardCornerRadius="8dp">
+
+            <!--  <EditText
+                  android:id="@+id/Fullname"
+                  android:textColor="@color/black"
+                  android:layout_width="match_parent"
+                  android:layout_height="40dp"
+                  android:background="@drawable/edittext"
+                  android:drawableLeft="@drawable/fountain"
+                  android:drawablePadding="8dp"
+                  android:hint="Full Name"
+                  android:textColorHint="@color/gray"
+                  android:padding="8dp"
+                  />
+
+
+
+              <EditText
+                  android:id="@+id/PhoneNo"
+                  android:textColor="@color/black"
+                  android:layout_width="match_parent"
+                  android:layout_height="40dp"
+                  android:layout_marginTop="20dp"
+                  android:background="@drawable/edittext"
+                  android:drawableLeft="@drawable/phone"
+                  android:drawablePadding="8dp"
+                  android:hint="Phone no."
+                  android:textColorHint="@color/gray"
+                  android:padding="8dp" />-->
+
+            <EditText
+                android:id="@+id/Email"
+                android:textColor="@color/black"
+                android:textColorHint="@color/gray"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/edittext"
+                android:drawableLeft="@drawable/email"
+                android:drawablePadding="8dp"
+                android:hint="Email"
+                android:padding="8dp" />
+
+            <EditText
+                android:id="@+id/Password"
+                android:textColor="@color/black"
+                android:textColorHint="@color/gray"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/edittext"
+                android:drawableLeft="@drawable/padlock"
+                android:drawablePadding="8dp"
+                android:hint="Password"
+                android:padding="8dp" />
+            <!-- <EditText
+                 android:id="@+id/ConPassword"
+                 android:textColor="@color/black"
+                 android:textColorHint="@color/gray"
+                 android:layout_width="match_parent"
+                 android:layout_height="40dp"
+                 android:layout_marginTop="20dp"
+                 android:background="@drawable/edittext"
+                 android:drawableLeft="@drawable/padlock"
+                 android:drawablePadding="8dp"
+                 android:hint="Confirm Password"
+                 android:padding="8dp" />-->
+
+            <Button
+                android:id="@+id/Register"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/buttontheme"
+                android:text="Register"
+                android:textColor="@color/white" />
+
+            <TextView
+                android:id="@+id/loginBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:text="LOGIN"
+                android:textColor="@color/blue" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>

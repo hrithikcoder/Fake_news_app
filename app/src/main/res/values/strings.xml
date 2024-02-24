@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">NewsApp</string>
+    <string name="fist_slide_name">SEARCH NEWS</string>
+    <string name="second_slide_name">READ NEWS</string>
+    <string name="third_slide_name">DETECT NEWS</string>
+    <string name="fourth_slide_name">DITCH FAKE NEWS</string>
+    <string name="first_slide_disc">It is a Plateform where you can search news</string>
+    <string name="second_slide_disc">Here you can read news allover the India and from the entire world</string>
+    <string name="third_slide_disc">After reading news if you got some wrong or fake news you can detect</string>
+    <string name="fourth_slide_disc">Ditch the fake news after detecting</string>
+
+    <style name="RatingBar" parent="Theme.AppCompat">
+        <item name="colorControlNormal">@color/black</item>
+        <item name="colorControlActivated">@color/colorPrimaryDark</item>
+    </style>
+
+</resources>
+
+

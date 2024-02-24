@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "714448715423",
+    "project_id": "fake-news-detection-app",
+    "storage_bucket": "fake-news-detection-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:714448715423:android:5459e5dc353cb91a19acaa",
+        "android_client_info": {
+          "package_name": "com.example.fakenewsdetectionapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "714448715423-9uoe8d7u5lu9p97iu2roahdljf2u3b11.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD7ThMD-ry6UUR4XiA_whBFdrUaTsCOZ5c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "714448715423-9uoe8d7u5lu9p97iu2roahdljf2u3b11.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
